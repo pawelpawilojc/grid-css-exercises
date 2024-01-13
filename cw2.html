@@ -2,7 +2,7 @@
 <html lang="pl-PL">
 
     <head>
-        <title>Ćwiczenie 1 - grid css</title>
+        <title>Ćwiczenie 2 - grid css</title>
         <meta charset="utf-8">
         <meta name="author" content="Paweł Pawiłojć 49536">
         <style>
@@ -15,7 +15,7 @@
 
             div.grid-container {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
                 margin: 5%;
                 border: 5px solid white;
                 border-radius: 5px;
@@ -35,6 +35,10 @@
 
                 font-size: 2em;
 
+            }
+
+            div.item1 {
+                grid-row: 1 / span 2;
             }
         </style>
     </head>
